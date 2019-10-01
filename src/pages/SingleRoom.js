@@ -1,8 +1,7 @@
 import React, { Component } from "react";
-import Hero from "../components/Hero";
 
 export default class SingleRoom extends Component {
   render() {
-    return <Hero hero="roomsHero" />;
+    return <h1>Single Room page</h1>;
   }
 }
